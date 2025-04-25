@@ -1,0 +1,865 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"2939 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2939: extern volatile __bit TRISB0 __attribute__((address(0x430)));
+[v _TRISB0 `Vb ~T0 @X0 0 e@1072 ]
+"2942
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2942: extern volatile __bit TRISB1 __attribute__((address(0x431)));
+[v _TRISB1 `Vb ~T0 @X0 0 e@1073 ]
+"2945
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2945: extern volatile __bit TRISB2 __attribute__((address(0x432)));
+[v _TRISB2 `Vb ~T0 @X0 0 e@1074 ]
+"1499
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1499: extern volatile unsigned char TRISD __attribute__((address(0x088)));
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"1437
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1437: extern volatile unsigned char TRISC __attribute__((address(0x087)));
+[v _TRISC `Vuc ~T0 @X0 0 e@135 ]
+"1443
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1443:     struct {
+[s S62 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S62 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"1442
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1442: typedef union {
+[u S61 `S62 1 ]
+[n S61 . . ]
+"1454
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1454: extern volatile TRISCbits_t TRISCbits __attribute__((address(0x087)));
+[v _TRISCbits `VS61 ~T0 @X0 0 e@135 ]
+"29 smart_manhole_monitoring_system.c
+[; ;smart_manhole_monitoring_system.c: 29: void lcd_initialize(void);
+[v _lcd_initialize `(v ~T0 @X0 0 ef ]
+"34
+[; ;smart_manhole_monitoring_system.c: 34: void HC_SR04_Init(void);
+[v _HC_SR04_Init `(v ~T0 @X0 0 ef ]
+"36
+[; ;smart_manhole_monitoring_system.c: 36: void Tilt_Sensor_Init(void);
+[v _Tilt_Sensor_Init `(v ~T0 @X0 0 ef ]
+"39
+[; ;smart_manhole_monitoring_system.c: 39: void UART_Init(void);
+[v _UART_Init `(v ~T0 @X0 0 ef ]
+"37
+[; ;smart_manhole_monitoring_system.c: 37: int Tilt_Sensor_Read(void);
+[v _Tilt_Sensor_Read `(i ~T0 @X0 0 ef ]
+"121 C:\Program Files\Microchip\xc8\v3.00\pic\include\c99/stdio.h
+[; ;C:\Program Files\Microchip\xc8\v3.00\pic\include\c99/stdio.h: 121: int sprintf(char *restrict, const char *restrict, ...);
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"35 smart_manhole_monitoring_system.c
+[; ;smart_manhole_monitoring_system.c: 35: int HC_SR04_Read(void);
+[v _HC_SR04_Read `(i ~T0 @X0 0 ef ]
+"30
+[; ;smart_manhole_monitoring_system.c: 30: void lcd_command(unsigned char cmd);
+[v _lcd_command `(v ~T0 @X0 0 ef1`uc ]
+"32
+[; ;smart_manhole_monitoring_system.c: 32: void lcd_string(const unsigned char* str, unsigned char num);
+[v _lcd_string `(v ~T0 @X0 0 ef2`*Cuc`uc ]
+"40
+[; ;smart_manhole_monitoring_system.c: 40: void UART_Write_Text(const char *text);
+[v _UART_Write_Text `(v ~T0 @X0 0 ef1`*Cuc ]
+[v F164 `(v ~T0 @X0 1 tf1`ul ]
+"20 C:\Program Files\Microchip\xc8\v3.00\pic\include/builtins.h
+[v __delay `JF164 ~T0 @X0 0 e ]
+[p i __delay ]
+"340 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 340: extern volatile unsigned char PORTD __attribute__((address(0x008)));
+[v _PORTD `Vuc ~T0 @X0 0 e@8 ]
+"284
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 284:     struct {
+[s S14 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S14 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"283
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 283: typedef union {
+[u S13 `S14 1 ]
+[n S13 . . ]
+"295
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 295: extern volatile PORTCbits_t PORTCbits __attribute__((address(0x007)));
+[v _PORTCbits `VS13 ~T0 @X0 0 e@7 ]
+"2678
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2678: extern volatile __bit RB0 __attribute__((address(0x30)));
+[v _RB0 `Vb ~T0 @X0 0 e@48 ]
+"2681
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2681: extern volatile __bit RB1 __attribute__((address(0x31)));
+[v _RB1 `Vb ~T0 @X0 0 e@49 ]
+"648
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 648: extern volatile unsigned char TMR1H __attribute__((address(0x00F)));
+[v _TMR1H `Vuc ~T0 @X0 0 e@15 ]
+"641
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 641: extern volatile unsigned char TMR1L __attribute__((address(0x00E)));
+[v _TMR1L `Vuc ~T0 @X0 0 e@14 ]
+"2861
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2861: extern volatile __bit T1CKPS0 __attribute__((address(0x84)));
+[v _T1CKPS0 `Vb ~T0 @X0 0 e@132 ]
+"2864
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2864: extern volatile __bit T1CKPS1 __attribute__((address(0x85)));
+[v _T1CKPS1 `Vb ~T0 @X0 0 e@133 ]
+"2870
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2870: extern volatile __bit T1OSCEN __attribute__((address(0x83)));
+[v _T1OSCEN `Vb ~T0 @X0 0 e@131 ]
+"2888
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2888: extern volatile __bit TMR1CS __attribute__((address(0x81)));
+[v _TMR1CS `Vb ~T0 @X0 0 e@129 ]
+"2897
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2897: extern volatile __bit TMR1ON __attribute__((address(0x80)));
+[v _TMR1ON `Vb ~T0 @X0 0 e@128 ]
+"2684
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2684: extern volatile __bit RB2 __attribute__((address(0x32)));
+[v _RB2 `Vb ~T0 @X0 0 e@50 ]
+"2080
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2080: extern volatile unsigned char SPBRG __attribute__((address(0x099)));
+[v _SPBRG `Vuc ~T0 @X0 0 e@153 ]
+"2005
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2005:     struct {
+[s S85 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S85 . TX9D TRMT BRGH . SYNC TXEN TX9 CSRC ]
+"2015
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2015:     struct {
+[s S86 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S86 . TXD8 . nTX8 ]
+"2020
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2020:     struct {
+[s S87 :6 `uc 1 :1 `uc 1 ]
+[n S87 . . TX8_9 ]
+"2004
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2004: typedef union {
+[u S84 `S85 1 `S86 1 `S87 1 ]
+[n S84 . . . . ]
+"2025
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2025: extern volatile TXSTAbits_t TXSTAbits __attribute__((address(0x098)));
+[v _TXSTAbits `VS84 ~T0 @X0 0 e@152 ]
+"970
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 970:     struct {
+[s S42 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S42 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"980
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 980:     struct {
+[s S43 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S43 . RCD8 . RC9 ]
+"985
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 985:     struct {
+[s S44 :6 `uc 1 :1 `uc 1 ]
+[n S44 . . nRC8 ]
+"989
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 989:     struct {
+[s S45 :6 `uc 1 :1 `uc 1 ]
+[n S45 . . RC8_9 ]
+"969
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 969: typedef union {
+[u S41 `S42 1 `S43 1 `S44 1 `S45 1 ]
+[n S41 . . . . . ]
+"994
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 994: extern volatile RCSTAbits_t RCSTAbits __attribute__((address(0x018)));
+[v _RCSTAbits `VS41 ~T0 @X0 0 e@24 ]
+"41 smart_manhole_monitoring_system.c
+[; ;smart_manhole_monitoring_system.c: 41: void UART_Write(char data);
+[v _UART_Write `(v ~T0 @X0 0 ef1`uc ]
+"1059 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1059: extern volatile unsigned char TXREG __attribute__((address(0x019)));
+[v _TXREG `Vuc ~T0 @X0 0 e@25 ]
+"54 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 636: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 643: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 650: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 657: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"732
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 732: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"739
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 739: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"810
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 810: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 817: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"887
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 887: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 894: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 901: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 908: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 966: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1061: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1068
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1068: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1075: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1082: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1089: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1096: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1154: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1161: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1257: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1327: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1377
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1377: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1439
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1439: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1501
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1501: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1563
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1563: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1620
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1620: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1682: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1722: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1756: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1818: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1825
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1825: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 1832: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2001: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2082: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2089: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2159: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2224: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2231: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2290: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2297: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2304: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2311: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2318: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; ;C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8\pic\include\proc/pic16f877a.h: 2363: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"6 smart_manhole_monitoring_system.c
+[p x FOSC  =  HS ]
+"7
+[p x WDTE  =  OFF ]
+"8
+[p x PWRTE  =  ON ]
+"9
+[p x BOREN  =  ON ]
+"10
+[p x LVP  =  OFF ]
+"11
+[p x CPD  =  OFF ]
+"12
+[p x WRT  =  OFF ]
+"13
+[p x CP  =  OFF ]
+[v $root$_main `(v ~T0 @X0 0 e ]
+"43
+[; ;smart_manhole_monitoring_system.c: 43: void main(void)
+[v _main `(v ~T0 @X0 1 ef ]
+"44
+[; ;smart_manhole_monitoring_system.c: 44: {
+{
+[e :U _main ]
+[f ]
+"45
+[; ;smart_manhole_monitoring_system.c: 45:     int distance;
+[v _distance `i ~T0 @X0 1 a ]
+"46
+[; ;smart_manhole_monitoring_system.c: 46:     char waterLevel[16];
+[v _waterLevel `uc ~T0 @X0 -> 16 `i a ]
+"47
+[; ;smart_manhole_monitoring_system.c: 47:     char tiltStatus[16];
+[v _tiltStatus `uc ~T0 @X0 -> 16 `i a ]
+"53
+[; ;smart_manhole_monitoring_system.c: 53:     TRISB0 = 0;
+[e = _TRISB0 -> -> 0 `i `b ]
+"54
+[; ;smart_manhole_monitoring_system.c: 54:     TRISB1 = 1;
+[e = _TRISB1 -> -> 1 `i `b ]
+"55
+[; ;smart_manhole_monitoring_system.c: 55:     TRISB2 = 1;
+[e = _TRISB2 -> -> 1 `i `b ]
+"56
+[; ;smart_manhole_monitoring_system.c: 56:     TRISD = 0x00;
+[e = _TRISD -> -> 0 `i `uc ]
+"57
+[; ;smart_manhole_monitoring_system.c: 57:     TRISC = 0x00;
+[e = _TRISC -> -> 0 `i `uc ]
+"58
+[; ;smart_manhole_monitoring_system.c: 58:     TRISCbits.TRISC6 = 0;
+[e = . . _TRISCbits 0 6 -> -> 0 `i `uc ]
+"59
+[; ;smart_manhole_monitoring_system.c: 59:     TRISCbits.TRISC7 = 1;
+[e = . . _TRISCbits 0 7 -> -> 1 `i `uc ]
+"61
+[; ;smart_manhole_monitoring_system.c: 61:     lcd_initialize();
+[e ( _lcd_initialize ..  ]
+"62
+[; ;smart_manhole_monitoring_system.c: 62:     HC_SR04_Init();
+[e ( _HC_SR04_Init ..  ]
+"63
+[; ;smart_manhole_monitoring_system.c: 63:     Tilt_Sensor_Init();
+[e ( _Tilt_Sensor_Init ..  ]
+"64
+[; ;smart_manhole_monitoring_system.c: 64:     UART_Init();
+[e ( _UART_Init ..  ]
+"66
+[; ;smart_manhole_monitoring_system.c: 66:     while (1)
+[e :U 103 ]
+"67
+[; ;smart_manhole_monitoring_system.c: 67:     {
+{
+"70
+[; ;smart_manhole_monitoring_system.c: 70:         if (Tilt_Sensor_Read())
+[e $ ! != ( _Tilt_Sensor_Read ..  -> 0 `i 105  ]
+"71
+[; ;smart_manhole_monitoring_system.c: 71:         {
+{
+"72
+[; ;smart_manhole_monitoring_system.c: 72:             sprintf(tiltStatus, "Tilt: Opened ");
+[e ( _sprintf (1 , &U _tiltStatus :s 1C ]
+"73
+[; ;smart_manhole_monitoring_system.c: 73:         }
+}
+[e $U 106  ]
+"74
+[; ;smart_manhole_monitoring_system.c: 74:         else
+[e :U 105 ]
+"75
+[; ;smart_manhole_monitoring_system.c: 75:         {
+{
+"76
+[; ;smart_manhole_monitoring_system.c: 76:             sprintf(tiltStatus, "Tilt: Closed ");
+[e ( _sprintf (1 , &U _tiltStatus :s 2C ]
+"77
+[; ;smart_manhole_monitoring_system.c: 77:         }
+}
+[e :U 106 ]
+"79
+[; ;smart_manhole_monitoring_system.c: 79:          const char* tiltStr = (Tilt_Sensor_Read()) ? "Opened" : "Closed";
+[v _tiltStr `*Cuc ~T0 @X0 1 a ]
+[e = _tiltStr -> ? != ( _Tilt_Sensor_Read ..  -> 0 `i : :s 3C :s 4C `*Cuc ]
+"81
+[; ;smart_manhole_monitoring_system.c: 81:         distance = HC_SR04_Read();
+[e = _distance ( _HC_SR04_Read ..  ]
+"84
+[; ;smart_manhole_monitoring_system.c: 84:         if (distance < 30)
+[e $ ! < _distance -> 30 `i 107  ]
+"85
+[; ;smart_manhole_monitoring_system.c: 85:         {
+{
+"86
+[; ;smart_manhole_monitoring_system.c: 86:             sprintf(waterLevel, "Level: High   ");
+[e ( _sprintf (1 , &U _waterLevel :s 5C ]
+"87
+[; ;smart_manhole_monitoring_system.c: 87:         }
+}
+[e $U 108  ]
+"88
+[; ;smart_manhole_monitoring_system.c: 88:         else
+[e :U 107 ]
+"89
+[; ;smart_manhole_monitoring_system.c: 89:         {
+{
+"90
+[; ;smart_manhole_monitoring_system.c: 90:             sprintf(waterLevel, "Level: Normal ");
+[e ( _sprintf (1 , &U _waterLevel :s 6C ]
+"91
+[; ;smart_manhole_monitoring_system.c: 91:         }
+}
+[e :U 108 ]
+"94
+[; ;smart_manhole_monitoring_system.c: 94:         lcd_command(0x80);
+[e ( _lcd_command (1 -> -> 128 `i `uc ]
+"95
+[; ;smart_manhole_monitoring_system.c: 95:         lcd_string("                ", 16);
+[e ( _lcd_string (2 , :s 7C -> -> 16 `i `uc ]
+"96
+[; ;smart_manhole_monitoring_system.c: 96:         lcd_command(0x80);
+[e ( _lcd_command (1 -> -> 128 `i `uc ]
+"97
+[; ;smart_manhole_monitoring_system.c: 97:         lcd_string(waterLevel, 16);
+[e ( _lcd_string (2 , -> &U _waterLevel `*Cuc -> -> 16 `i `uc ]
+"100
+[; ;smart_manhole_monitoring_system.c: 100:         lcd_command(0xC0);
+[e ( _lcd_command (1 -> -> 192 `i `uc ]
+"101
+[; ;smart_manhole_monitoring_system.c: 101:         lcd_string("                ", 16);
+[e ( _lcd_string (2 , :s 8C -> -> 16 `i `uc ]
+"102
+[; ;smart_manhole_monitoring_system.c: 102:         lcd_command(0xC0);
+[e ( _lcd_command (1 -> -> 192 `i `uc ]
+"103
+[; ;smart_manhole_monitoring_system.c: 103:         lcd_string(tiltStatus, 16);
+[e ( _lcd_string (2 , -> &U _tiltStatus `*Cuc -> -> 16 `i `uc ]
+"106
+[; ;smart_manhole_monitoring_system.c: 106:         char uartBuffer[64];
+[v _uartBuffer `uc ~T0 @X0 -> 64 `i a ]
+"107
+[; ;smart_manhole_monitoring_system.c: 107:         sprintf(uartBuffer, "Tilt: %s , Distance: %d, %s\n", tiltStr, distance, waterLevel);
+[e ( _sprintf (1 , , , (. , &U _uartBuffer :s 9C _tiltStr _distance &U _waterLevel ]
+"108
+[; ;smart_manhole_monitoring_system.c: 108:         UART_Write_Text(uartBuffer);
+[e ( _UART_Write_Text (1 -> &U _uartBuffer `*Cuc ]
+"110
+[; ;smart_manhole_monitoring_system.c: 110:         _delay((unsigned long)((500)*(20000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"111
+[; ;smart_manhole_monitoring_system.c: 111:     }
+}
+[e :U 102 ]
+[e $U 103  ]
+[e :U 104 ]
+"112
+[; ;smart_manhole_monitoring_system.c: 112: }
+[e :UE 101 ]
+}
+"116
+[; ;smart_manhole_monitoring_system.c: 116: void lcd_initialize()
+[v _lcd_initialize `(v ~T0 @X0 1 ef ]
+"117
+[; ;smart_manhole_monitoring_system.c: 117: {
+{
+[e :U _lcd_initialize ]
+[f ]
+"118
+[; ;smart_manhole_monitoring_system.c: 118:     lcd_command(0x38);
+[e ( _lcd_command (1 -> -> 56 `i `uc ]
+"119
+[; ;smart_manhole_monitoring_system.c: 119:     lcd_command(0x06);
+[e ( _lcd_command (1 -> -> 6 `i `uc ]
+"120
+[; ;smart_manhole_monitoring_system.c: 120:     lcd_command(0x0C);
+[e ( _lcd_command (1 -> -> 12 `i `uc ]
+"121
+[; ;smart_manhole_monitoring_system.c: 121:     lcd_command(0x01);
+[e ( _lcd_command (1 -> -> 1 `i `uc ]
+"122
+[; ;smart_manhole_monitoring_system.c: 122: }
+[e :UE 109 ]
+}
+"124
+[; ;smart_manhole_monitoring_system.c: 124: void lcd_command(unsigned char cmd)
+[v _lcd_command `(v ~T0 @X0 1 ef1`uc ]
+"125
+[; ;smart_manhole_monitoring_system.c: 125: {
+{
+[e :U _lcd_command ]
+"124
+[; ;smart_manhole_monitoring_system.c: 124: void lcd_command(unsigned char cmd)
+[v _cmd `uc ~T0 @X0 1 r1 ]
+"125
+[; ;smart_manhole_monitoring_system.c: 125: {
+[f ]
+"126
+[; ;smart_manhole_monitoring_system.c: 126:     PORTD = cmd;
+[e = _PORTD _cmd ]
+"127
+[; ;smart_manhole_monitoring_system.c: 127:     PORTCbits.RC0 = 0;
+[e = . . _PORTCbits 0 0 -> -> 0 `i `uc ]
+"128
+[; ;smart_manhole_monitoring_system.c: 128:     PORTCbits.RC1 = 0;
+[e = . . _PORTCbits 0 1 -> -> 0 `i `uc ]
+"129
+[; ;smart_manhole_monitoring_system.c: 129:     PORTCbits.RC2 = 1;
+[e = . . _PORTCbits 0 2 -> -> 1 `i `uc ]
+"130
+[; ;smart_manhole_monitoring_system.c: 130:     _delay((unsigned long)((5)*(20000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"131
+[; ;smart_manhole_monitoring_system.c: 131:     PORTCbits.RC2 = 0;
+[e = . . _PORTCbits 0 2 -> -> 0 `i `uc ]
+"132
+[; ;smart_manhole_monitoring_system.c: 132: }
+[e :UE 110 ]
+}
+"134
+[; ;smart_manhole_monitoring_system.c: 134: void lcd_data(unsigned char data)
+[v _lcd_data `(v ~T0 @X0 1 ef1`uc ]
+"135
+[; ;smart_manhole_monitoring_system.c: 135: {
+{
+[e :U _lcd_data ]
+"134
+[; ;smart_manhole_monitoring_system.c: 134: void lcd_data(unsigned char data)
+[v _data `uc ~T0 @X0 1 r1 ]
+"135
+[; ;smart_manhole_monitoring_system.c: 135: {
+[f ]
+"136
+[; ;smart_manhole_monitoring_system.c: 136:     PORTD = data;
+[e = _PORTD _data ]
+"137
+[; ;smart_manhole_monitoring_system.c: 137:     PORTCbits.RC0 = 1;
+[e = . . _PORTCbits 0 0 -> -> 1 `i `uc ]
+"138
+[; ;smart_manhole_monitoring_system.c: 138:     PORTCbits.RC1 = 0;
+[e = . . _PORTCbits 0 1 -> -> 0 `i `uc ]
+"139
+[; ;smart_manhole_monitoring_system.c: 139:     PORTCbits.RC2 = 1;
+[e = . . _PORTCbits 0 2 -> -> 1 `i `uc ]
+"140
+[; ;smart_manhole_monitoring_system.c: 140:     _delay((unsigned long)((5)*(20000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 20000000 `l `d .4000.0 `ul ]
+"141
+[; ;smart_manhole_monitoring_system.c: 141:     PORTCbits.RC2 = 0;
+[e = . . _PORTCbits 0 2 -> -> 0 `i `uc ]
+"142
+[; ;smart_manhole_monitoring_system.c: 142: }
+[e :UE 111 ]
+}
+"144
+[; ;smart_manhole_monitoring_system.c: 144: void lcd_string(const unsigned char* str, unsigned char num)
+[v _lcd_string `(v ~T0 @X0 1 ef2`*Cuc`uc ]
+"145
+[; ;smart_manhole_monitoring_system.c: 145: {
+{
+[e :U _lcd_string ]
+"144
+[; ;smart_manhole_monitoring_system.c: 144: void lcd_string(const unsigned char* str, unsigned char num)
+[v _str `*Cuc ~T0 @X0 1 r1 ]
+[v _num `uc ~T0 @X0 1 r2 ]
+"145
+[; ;smart_manhole_monitoring_system.c: 145: {
+[f ]
+"146
+[; ;smart_manhole_monitoring_system.c: 146:     unsigned char i;
+[v _i `uc ~T0 @X0 1 a ]
+"147
+[; ;smart_manhole_monitoring_system.c: 147:     for (i = 0; i < num && str[i] != '\0'; i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 116  ]
+[e :U 113 ]
+"148
+[; ;smart_manhole_monitoring_system.c: 148:     {
+{
+"149
+[; ;smart_manhole_monitoring_system.c: 149:         lcd_data(str[i]);
+[e ( _lcd_data (1 *U + _str * -> _i `ux -> -> # *U _str `ui `ux ]
+"150
+[; ;smart_manhole_monitoring_system.c: 150:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 116 ]
+[e $ && < -> _i `i -> _num `i != -> *U + _str * -> _i `ux -> -> # *U _str `ui `ux `ui -> 0 `ui 113  ]
+[e :U 114 ]
+}
+"151
+[; ;smart_manhole_monitoring_system.c: 151: }
+[e :UE 112 ]
+}
+"155
+[; ;smart_manhole_monitoring_system.c: 155: void HC_SR04_Init()
+[v _HC_SR04_Init `(v ~T0 @X0 1 ef ]
+"156
+[; ;smart_manhole_monitoring_system.c: 156: {
+{
+[e :U _HC_SR04_Init ]
+[f ]
+"157
+[; ;smart_manhole_monitoring_system.c: 157:     RB0 = 0;
+[e = _RB0 -> -> 0 `i `b ]
+"158
+[; ;smart_manhole_monitoring_system.c: 158: }
+[e :UE 117 ]
+}
+"160
+[; ;smart_manhole_monitoring_system.c: 160: int HC_SR04_Read()
+[v _HC_SR04_Read `(i ~T0 @X0 1 ef ]
+"161
+[; ;smart_manhole_monitoring_system.c: 161: {
+{
+[e :U _HC_SR04_Read ]
+[f ]
+"162
+[; ;smart_manhole_monitoring_system.c: 162:     unsigned int time;
+[v _time `ui ~T0 @X0 1 a ]
+"163
+[; ;smart_manhole_monitoring_system.c: 163:     int distance;
+[v _distance `i ~T0 @X0 1 a ]
+"165
+[; ;smart_manhole_monitoring_system.c: 165:     RB0 = 1;
+[e = _RB0 -> -> 1 `i `b ]
+"166
+[; ;smart_manhole_monitoring_system.c: 166:     _delay((unsigned long)((10)*(20000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 20000000 `l `d .4000000.0 `ul ]
+"167
+[; ;smart_manhole_monitoring_system.c: 167:     RB0 = 0;
+[e = _RB0 -> -> 0 `i `b ]
+"169
+[; ;smart_manhole_monitoring_system.c: 169:     while (!RB1);
+[e $U 119  ]
+[e :U 120 ]
+[e :U 119 ]
+[e $ ! _RB1 120  ]
+[e :U 121 ]
+"170
+[; ;smart_manhole_monitoring_system.c: 170:     TMR1H = 0;
+[e = _TMR1H -> -> 0 `i `uc ]
+"171
+[; ;smart_manhole_monitoring_system.c: 171:     TMR1L = 0;
+[e = _TMR1L -> -> 0 `i `uc ]
+"172
+[; ;smart_manhole_monitoring_system.c: 172:     T1CKPS0 = 0; T1CKPS1 = 0;
+[e = _T1CKPS0 -> -> 0 `i `b ]
+[e = _T1CKPS1 -> -> 0 `i `b ]
+"173
+[; ;smart_manhole_monitoring_system.c: 173:     T1OSCEN = 0;
+[e = _T1OSCEN -> -> 0 `i `b ]
+"174
+[; ;smart_manhole_monitoring_system.c: 174:     TMR1CS = 0;
+[e = _TMR1CS -> -> 0 `i `b ]
+"175
+[; ;smart_manhole_monitoring_system.c: 175:     TMR1ON = 1;
+[e = _TMR1ON -> -> 1 `i `b ]
+"177
+[; ;smart_manhole_monitoring_system.c: 177:     while (RB1);
+[e $U 122  ]
+[e :U 123 ]
+[e :U 122 ]
+[e $ _RB1 123  ]
+[e :U 124 ]
+"179
+[; ;smart_manhole_monitoring_system.c: 179:     TMR1ON = 0;
+[e = _TMR1ON -> -> 0 `i `b ]
+"180
+[; ;smart_manhole_monitoring_system.c: 180:     time = (TMR1L | (TMR1H << 8));
+[e = _time -> | -> _TMR1L `i << -> _TMR1H `i -> 8 `i `ui ]
+"181
+[; ;smart_manhole_monitoring_system.c: 181:     distance = (int)(time / 294);
+[e = _distance -> / _time -> -> 294 `i `ui `i ]
+"182
+[; ;smart_manhole_monitoring_system.c: 182:     return distance;
+[e ) _distance ]
+[e $UE 118  ]
+"183
+[; ;smart_manhole_monitoring_system.c: 183: }
+[e :UE 118 ]
+}
+"187
+[; ;smart_manhole_monitoring_system.c: 187: void Tilt_Sensor_Init()
+[v _Tilt_Sensor_Init `(v ~T0 @X0 1 ef ]
+"188
+[; ;smart_manhole_monitoring_system.c: 188: {
+{
+[e :U _Tilt_Sensor_Init ]
+[f ]
+"190
+[; ;smart_manhole_monitoring_system.c: 190: }
+[e :UE 125 ]
+}
+"192
+[; ;smart_manhole_monitoring_system.c: 192: int Tilt_Sensor_Read()
+[v _Tilt_Sensor_Read `(i ~T0 @X0 1 ef ]
+"193
+[; ;smart_manhole_monitoring_system.c: 193: {
+{
+[e :U _Tilt_Sensor_Read ]
+[f ]
+"194
+[; ;smart_manhole_monitoring_system.c: 194:     return RB2;
+[e ) -> _RB2 `i ]
+[e $UE 126  ]
+"195
+[; ;smart_manhole_monitoring_system.c: 195: }
+[e :UE 126 ]
+}
+"199
+[; ;smart_manhole_monitoring_system.c: 199: void UART_Init(void)
+[v _UART_Init `(v ~T0 @X0 1 ef ]
+"200
+[; ;smart_manhole_monitoring_system.c: 200: {
+{
+[e :U _UART_Init ]
+[f ]
+"201
+[; ;smart_manhole_monitoring_system.c: 201:     SPBRG = 31;
+[e = _SPBRG -> -> 31 `i `uc ]
+"202
+[; ;smart_manhole_monitoring_system.c: 202:     TXSTAbits.BRGH = 1;
+[e = . . _TXSTAbits 0 2 -> -> 1 `i `uc ]
+"206
+[; ;smart_manhole_monitoring_system.c: 206:     TXSTAbits.TXEN = 1;
+[e = . . _TXSTAbits 0 5 -> -> 1 `i `uc ]
+"207
+[; ;smart_manhole_monitoring_system.c: 207:     RCSTAbits.SPEN = 1;
+[e = . . _RCSTAbits 0 7 -> -> 1 `i `uc ]
+"208
+[; ;smart_manhole_monitoring_system.c: 208: }
+[e :UE 127 ]
+}
+"210
+[; ;smart_manhole_monitoring_system.c: 210: void UART_Write_Text(const char *text)
+[v _UART_Write_Text `(v ~T0 @X0 1 ef1`*Cuc ]
+"211
+[; ;smart_manhole_monitoring_system.c: 211: {
+{
+[e :U _UART_Write_Text ]
+"210
+[; ;smart_manhole_monitoring_system.c: 210: void UART_Write_Text(const char *text)
+[v _text `*Cuc ~T0 @X0 1 r1 ]
+"211
+[; ;smart_manhole_monitoring_system.c: 211: {
+[f ]
+"212
+[; ;smart_manhole_monitoring_system.c: 212:     while (*text)
+[e $U 129  ]
+[e :U 130 ]
+"213
+[; ;smart_manhole_monitoring_system.c: 213:     {
+{
+"214
+[; ;smart_manhole_monitoring_system.c: 214:         UART_Write(*text);
+[e ( _UART_Write (1 *U _text ]
+"215
+[; ;smart_manhole_monitoring_system.c: 215:         text++;
+[e ++ _text * -> -> 1 `i `x -> -> # *U _text `i `x ]
+"216
+[; ;smart_manhole_monitoring_system.c: 216:     }
+}
+[e :U 129 ]
+"212
+[; ;smart_manhole_monitoring_system.c: 212:     while (*text)
+[e $ != -> *U _text `i -> 0 `i 130  ]
+[e :U 131 ]
+"217
+[; ;smart_manhole_monitoring_system.c: 217: }
+[e :UE 128 ]
+}
+"219
+[; ;smart_manhole_monitoring_system.c: 219: void UART_Write(char data)
+[v _UART_Write `(v ~T0 @X0 1 ef1`uc ]
+"220
+[; ;smart_manhole_monitoring_system.c: 220: {
+{
+[e :U _UART_Write ]
+"219
+[; ;smart_manhole_monitoring_system.c: 219: void UART_Write(char data)
+[v _data `uc ~T0 @X0 1 r1 ]
+"220
+[; ;smart_manhole_monitoring_system.c: 220: {
+[f ]
+"221
+[; ;smart_manhole_monitoring_system.c: 221:     while (!TXSTAbits.TRMT);
+[e $U 133  ]
+[e :U 134 ]
+[e :U 133 ]
+[e $ ! != -> . . _TXSTAbits 0 1 `i -> 0 `i 134  ]
+[e :U 135 ]
+"222
+[; ;smart_manhole_monitoring_system.c: 222:     TXREG = data;
+[e = _TXREG -> _data `uc ]
+"223
+[; ;smart_manhole_monitoring_system.c: 223: }
+[e :UE 132 ]
+}
+[p f _sprintf 8650880 ]
+[a 4C 67 108 111 115 101 100 0 ]
+[a 3C 79 112 101 110 101 100 0 ]
+[a 6C 76 101 118 101 108 58 32 78 111 114 109 97 108 32 0 ]
+[a 2C 84 105 108 116 58 32 67 108 111 115 101 100 32 0 ]
+[a 1C 84 105 108 116 58 32 79 112 101 110 101 100 32 0 ]
+[a 5C 76 101 118 101 108 58 32 72 105 103 104 32 32 32 0 ]
+[a 7C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 8C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 9C 84 105 108 116 58 32 37 115 32 44 32 68 105 115 116 97 110 99 101 58 32 37 100 44 32 37 115 10 0 ]
